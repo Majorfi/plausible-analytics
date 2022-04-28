@@ -2,6 +2,7 @@
 # platform specific, it makes sense to build it in the docker
 
 #### Builder
+# FROM node:12-buster-slim AS buildcontainer
 FROM hexpm/elixir:1.12.2-erlang-24.0-alpine-3.13.3 as buildcontainer
 
 # preparation
